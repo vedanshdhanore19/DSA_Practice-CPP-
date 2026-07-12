@@ -25,6 +25,7 @@ void printdivisor(int n){
     }
     sort(ls.begin(),ls.end());
     for(auto it : ls) cout << it << " ";
+    // Time Complexicity => o(sqrt(n))
 }
 
 int main() {
